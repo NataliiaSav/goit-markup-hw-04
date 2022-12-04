@@ -260,12 +260,17 @@ div.icon {
 .team-member {
     font-weight: 500;
 }
+.team-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    gap: 10px;
+}
 .social-link {
     display: flex;
     width: 44px;
     height: 44px;
-    align-items: center;
-    justify-content: center;
     border-radius: 50%;
 
 }
