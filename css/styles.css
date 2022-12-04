@@ -115,6 +115,13 @@ p {
 .contacts:focus {
     color: var(--accent-color);
 }
+.cotacts-icon {
+    fill: currentColor;
+}
+.contacts-icon:hover,
+.contacts-icon:focus {
+    fill: var(--accent-color);
+}
 .section {
     padding: 94px 0;
 }
@@ -239,6 +246,24 @@ p {
 
 .team-member {
     font-weight: 500;
+}
+/* клієнти */
+.clients-set {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.clients-item {
+    width: 170px;
+    height: 92px;
+    margin-top: 50px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+
+}
+.clients-icon {
+    margin: auto;
 }
 .footer {
     background-color: var(--secondary-bcg-color);
