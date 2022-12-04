@@ -9,6 +9,7 @@
 /* колір фону #F5F5F5 */
 /* вторічний колір фону #2F303A */
 /* колір бордеру у хедері #ECECEC */
+/* колір соцмереж #AFB1B8 */
 /*  */
 
 :root {
@@ -22,6 +23,7 @@
     --primary-white-color: #FFFFFF;
     --border-color: #ECECEC;
     --border-cards-color: #EEEEEE;
+    --social-link-color: #AFB1B8;
 
 }
 body {
@@ -257,6 +259,15 @@ div.icon {
 
 .team-member {
     font-weight: 500;
+}
+.social-link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
 }
 /* клієнти */
 .clients-set {
